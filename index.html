@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!--Para funcionar os icones -->
+    <!--useI CDN gratuito do fontawesome 6, para o icone funcionar-->
+  
+
+<!--css começa a funcionar quando linkado no head-->
+  <link rel="stylesheet" href="CSS/styles.css">
+  <!--js começa a funcionar quando linkado no head-->
+
+
+
+  <script src="Javascript/script.js" defer ></script>
+ 
+</head>
+
+<body>
+</body>
+
+</html>
+<!--fiz o header para coolocar o icone  e o titulo, para deixar organizadp-->
+<header class="Login">
+  <div class="tittle">
+    <nav class="singin">
+      <div class="icon">
+        <i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i> <!-- icone, peguei do site font awesome-->
+      </div>
+
+      <div class="title">
+        <h1>Faça seu login: </h1>
+      </div>
+</header>
+<!-- nav para colocar o formulario de email e senha e botão-->
+<nav>
+
+
+  <!-- Formulário -->
+  <form id="loginForm">
+    <div class="login">
+      <div class="task">
+        <fieldset>
+          <!-- Adicionados os IDs -->
+          <p style="color: rgb(250, 246, 246);"> Nome ou E-mail: </p> 
+         <input type="text" id="user" name="username" autocomplete="username" placeholder="Nome do usuário ou E-mail:" required>
+          <br>
+          <p style="color: white;"> Senha: <a href="#" class="forgot-password"  style="color: #0451bdf6; text-decoration: 
+          none; "> Esqueceu a senha?</a> </p> 
+          <input type="password" id="password" name="password" autocomplete="current-password" placeholder="Senha:"  required>
+         <i class="fas fa-eye" id="togglePassword" style="color: #ffffff; cursor: pointer;" aria-label="Mostrar senha" role="button" ></i>
+          <br>
+        
+            <button type="submit" id="button">Entrar</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+</nav>
+
+
+
+
+
+<!-- meu rodapé vai ser mais um formulário para  a pessoa criar a conta caso não tenha -->
+
+
+<footer class="footer">
+  <fieldset>
+    <div class="li">
+      <ul class="none">
+
+        <li> <p style="color: white;"> Você é novo no GitHub? <a href="#" style="color: #0451bdf6; text-decoration: none;">Crie uma conta</a>. </p>
+      </ul>
+
+
+</html>
+</body>

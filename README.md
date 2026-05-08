@@ -15,13 +15,13 @@ Este projeto é um **clone de tela de login**, desenvolvido com foco em praticar
 
 ##  Funcionalidades
 
-✔ Campo de usuário e senha
-✔ Validação de formulário com HTML5 (`required`)
-✔ Uso de `localStorage` para salvar o usuário
-✔ Campo de senha com opção de mostrar/ocultar 
-✔ Acessibilidade com teclado (Enter e Espaço)
-✔ Limpeza automática do campo de senha por segurança
-✔ Interface inspirada em login moderno
+Campo de usuário e senha |
+Validação de formulário com HTML5 (`required`)  |
+Uso de `localStorage` para salvar o usuário |
+Campo de senha com opção de mostrar/ocultar |
+ Acessibilidade com teclado (Enter e Espaço) |
+Limpeza automática do campo de senha por segurança |
+ Interface inspirada em login moderno
 
 ---
 
